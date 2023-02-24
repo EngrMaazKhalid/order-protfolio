@@ -1,0 +1,130 @@
+body{
+    background-color: #EAF5F9;
+}
+html{
+    font-size: 62.5%;
+}
+@media only screen and (max-width:950px){ 
+    /* //900px */
+    html{
+       
+        font-size: 50%;
+    } 
+}
+
+
+@media only screen and(max-width:1200px){ 
+     /* //1200px */
+     html{
+       
+        font-size: 56.25%;
+    } 
+}
+
+
+@media only screen and (min-width:112.5em){   
+     /* //1800px */
+     html{
+       
+        font-size: 75%;
+    } 
+}
+:root{
+    --primary-color-blue: #0509fd;
+}
+
+.Home{
+    height: 100%;
+    margin-bottom: 100px;
+}
+.Home-container{
+    display: flex;
+   
+    
+    flex-direction: column; 
+}
+.Home-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Heading{
+    font-family: Poppins, sans-serif;
+    font-size: 6.5rem;
+    font-weight: 400;
+        background: linear-gradient(120deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position: 0 70%;
+}
+.Strong{
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    font-size: 6.5rem;
+    
+     
+}
+.intropara{
+    width: 80%;
+    margin: 1rem 0 2.8rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-family: Open sans,sans-serif;
+    display: flex;
+    align-items: center;
+    color: rgb(83, 83, 83);
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+.second{
+    width: 60%;
+}
+.profiledp{
+    border-radius: 50%;
+    /* background-color:#338BA8 ; */
+    background-color: var(--primary-color-blue);
+    height: 20rem;
+    width: 20rem;
+        margin: 0 auto;
+}
+.dp-div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.smicons{
+   margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2.5rem;
+}
+.social{
+    cursor: pointer;
+    /* color: #338BA8; */
+    color: var(--primary-color-blue);
+    
+}
+.mainbtn{
+    
+    background-color: var(--primary-color-blue);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 2rem;
+    transform: translateX(-3.3rem);
+    cursor: pointer;
+    width: 20rem;
+    border-radius: 5px;
+}
+.flex{
+    margin-top: 3rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
