@@ -1,0 +1,53 @@
+body{
+    background-color: #EAF5F9;
+}
+html{
+    font-size: 62.5%;
+}
+@media only screen and (max-width:950px){ 
+    /* //900px */
+    html{
+       
+        font-size: 50%;
+    } 
+}
+
+
+@media only screen and(max-width:1200px){ 
+     /* //1200px */
+     html{
+       
+        font-size: 56.25%;
+    } 
+}
+
+
+@media only screen and (min-width:112.5em){   
+     /* //1800px */
+     html{
+       
+        font-size: 75%;
+    } 
+}
+.skills{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:  linear-gradient(to right bottom, rgb(0 0 0 / 40%), #151c20),url(header.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),url(cardimg.jpg); */
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.Heading1{
+    font-family: Poppins, sans-serif;
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 300;
+}
+.find-btn:hover{
+    /* background-color: rgb(194, 193, 193); */
+}

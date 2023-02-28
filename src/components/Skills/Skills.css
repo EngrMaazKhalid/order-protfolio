@@ -1,0 +1,7 @@
+.Skills{
+    height: 100vh;
+    background:  linear-gradient(to right bottom, rgb(0 0 0 / 40%), #151c20),url(cardimg.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
