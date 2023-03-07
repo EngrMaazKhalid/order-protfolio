@@ -1,8 +1,10 @@
 body{
     background-color: #EAF5F9;
+    font-family: Poppins, sans-serif ;
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 @media only screen and (max-width:950px){ 
     /* //900px */
@@ -53,6 +55,9 @@ html{
     font-weight: 300;
     margin: 0;
 }
+.animatehead{ font-size: 5.5rem;
+font-weight: 300;}
+
 .find-btn:hover{
     /* background-color: rgb(194, 193, 193); */
 }

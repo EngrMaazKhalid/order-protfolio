@@ -12,8 +12,27 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import './Navbar.css'
 
-const pages = ['About Me', 'Services','My Toolkit', 'Reviews'];
+const pages = [
+  {
+    key:"01",
+  name:'About Me',
+  id:'#Home'}, 
+  {
+    key:"02",
+    name:'Services',
+    id:'#Skills'},
+    {
+      key:"03",
+      name:'My Toolkit',
+    id:'#Toolkit'},
+    {
+      key:"04",
+      name: 'Reviews',
+    id:'#Reviews'
+  }
+];
 
 
 function ResponsiveAppBar() {
@@ -96,8 +115,8 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem key={page.key}  onClick={handleCloseNavMenu}>
+                  <Typography   textAlign="center"><a className='NavName' href={page.id}>{page.name}</a></Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -106,8 +125,8 @@ function ResponsiveAppBar() {
          
           <Box sx={{ display: { xs: 'none', sm: 'block', color:'black' } }}>
         {pages.map((item) => (
-          <Button key={item} sx={{ color: 'rgb(83, 83, 83)', fontSize:'1.6rem', fontFamily:'Poppins' }}>
-            {item}
+          <Button href={item.id} key={item.key} sx={{ color: 'rgb(83, 83, 83)', fontSize:'1.6rem', fontFamily:'Poppins' }}>
+            {item.name}
           </Button>
         ))}
       </Box>

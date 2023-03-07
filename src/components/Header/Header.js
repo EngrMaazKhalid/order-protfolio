@@ -31,7 +31,7 @@ export default function Header() {
     sequence={[
     'Hi, I am Sidra',
     2000,
-    'Hi, I am your Virtual Assistant',
+    'Hi, I am your VA',
      2000,
     // 'We produce food for Guinea Pigs',
     // 1000,
@@ -39,7 +39,8 @@ export default function Header() {
     // 1000,
     ]}
     speed={50} // Custom Speed from 1-99 - Default Speed: 40
-    style={{ fontSize: '5.5rem', fontWeight: '300'  }}
+    className='animatehead'
+    // style={{ fontSize: '5.5rem', fontWeight: '300'  }}
     wrapper="h1" // Animation will be rendered as a <span>
     repeat={Infinity} // Repeat this Animation Sequence infinitely
   />
@@ -58,7 +59,7 @@ export default function Header() {
          
           fontSize: '1.6rem',
           fontWeight:'500'
-      }} variant="contained" className='find-btn'>Find out more</Buttons>
+      }} variant="contained" className='find-btn' href='#Home'>Find out more</Buttons>
     </div>
     </div>  )
 }

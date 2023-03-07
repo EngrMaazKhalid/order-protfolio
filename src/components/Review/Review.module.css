@@ -2,6 +2,12 @@
     height: 100%;
     padding: 6rem;
     /* background: radial-gradient( #ffb53e, #ff9901); */
+    background:  linear-gradient(to right bottom, rgb(0 0 0 / 40%), #151c20),url(header.jpg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),url(cardimg.jpg); */
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-size: cover;
     display:flex ;
     align-items: center;
     justify-content: center;
@@ -11,7 +17,7 @@
     display:flex ;
     align-items: center;
     justify-content: center;
-    
+    color: aliceblue;
     text-transform: uppercase;
     font-size: 4rem ;
 }
@@ -24,7 +30,7 @@
     flex-shrink: 0;
     object-fit: cover;
     display: block;
-    border: 10px solid  #0509fd;
+    /* border: 10px solid  #0509fd; */
     }
 .Slider{
     display: flex;
@@ -35,7 +41,7 @@
     height: 100%;
     padding: 2rem 8rem;
     max-width: 100%;
-    background-color: #e5e5e5;
+    background: transparent;
     color: #333;
     
 }
@@ -66,4 +72,11 @@
     font-size: 2.4rem;
     line-height: 1.2;
     text-transform: capitalize;
+}
+.info{
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: #333;
 }

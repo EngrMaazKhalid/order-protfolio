@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skills";
 import Info from "./components/Info/Info";
 import ReviewCard from "./components/Review/ReviewCard";
 import Toolkit from "./components/Toolkit/Toolkit";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Skills />
     <Toolkit />
     <ReviewCard />
+    <Footer />
     </div>
   );
 }

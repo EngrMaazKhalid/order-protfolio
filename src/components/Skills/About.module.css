@@ -150,8 +150,8 @@
 .about{
 
     overflow: hidden;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  /* margin-top: 10rem;
+  margin-bottom: 10rem; */
 }
 .about-list{
     display: flex;

@@ -158,13 +158,22 @@ justify-content: center;
     max-width: 100%;
     margin-left: 0.8rem;
 }
+@media (max-width:456px){ 
+    .down-div{
+flex-direction: column ;
+justify-content: space-between;
+    }
+}
 
-.button{
+
+.button,
+.button1{
     overflow: hidden;
     display: inline-block;
     line-height: 1.4;
     border-radius: 35px;
     white-space: nowrap;
+    width: 15rem;
     text-overflow: ellipsis;
     text-align: center;
     cursor: pointer;
@@ -186,7 +195,21 @@ justify-content: center;
     cursor: pointer!important;
     border: 1px solid #0509fd;
 }
+.button1{
+    background-color:#0509fd ;
+    margin-left: 1rem;
+    transition: all .2s;
+ 
+}
+@media (max-width:456px){ 
+    .button1{
+        margin-top: 1rem;
+    }
 
+}
+.button-icon1 .button1:hover {
+    background-color: #0003b1;
+}
 .button-text{
     position: relative;
     z-index: 2;
@@ -194,7 +217,8 @@ justify-content: center;
     transition: all .3s ease-out;
 }
 
-.button-icon {
+.button-icon, 
+.button-icon1 {
     position: absolute;
     right: -1px;
     top: -1px;
