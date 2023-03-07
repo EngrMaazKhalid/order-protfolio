@@ -30,10 +30,10 @@ html{
     } 
 }
 .skills{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 90vh;
     background:  linear-gradient(to right bottom, rgb(0 0 0 / 40%), #151c20),url(header.jpg);
     /* background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),url(cardimg.jpg); */
     
@@ -41,13 +41,35 @@ html{
     background-position: center;
     background-size: cover;
     align-items: center;
+  
+}
+.header{
+
 }
 .Heading1{
     font-family: Poppins, sans-serif;
     font-size: 4.5rem;
     color: white;
     font-weight: 300;
+    margin: 0;
 }
 .find-btn:hover{
     /* background-color: rgb(194, 193, 193); */
+}
+.Header-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.skill-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

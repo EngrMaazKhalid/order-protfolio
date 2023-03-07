@@ -1,7 +1,77 @@
 .Skills{
-    height: 100vh;
+    height: 100%;
     background:  linear-gradient(to right bottom, rgb(0 0 0 / 40%), #151c20),url(cardimg.jpg);
     background-position: center;
     background-size: cover;
     align-items: center;
+    padding: 2rem;
 }
+.area_icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+.social-icon{
+background-image: url(./social-media-marketing.png);
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.skill-head{
+    color: wheat;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center  ;
+}
+.commerce-icon{
+    background-image: url(./ecommerce.png);
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.customer-icon{
+    background-image: url(./customer-services.png);
+    /* background-image: url(./customer-services.png); */
+    fill: aliceblue;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Service_card{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+    border-radius: 10px 20px;
+    max-height: 50rem;
+    min-height: 40rem;
+    /* transform: perspective(1px) translateZ(0); */
+  /* box-shadow: 0 0 1px rgba(0, 0, 0, 0); */
+  /* box-shadow: 20px 20px rgba(0,0,0,.15); */
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+   
+}
+.virtual-icon{
+    background-image: url(./online-presentation.png);
+    fill: aliceblue;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.virtual-icon,
+.commerce-icon,
+.customer-icon,
+.social-icon
+{display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    margin: 1rem auto;
+    transition: 600ms all;}

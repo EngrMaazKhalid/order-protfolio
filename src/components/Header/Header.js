@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 import './Header.css'
 import { Button } from '@mui/material'
 import { styled } from '@mui/material/styles';
+import ResponsiveAppBar from '../Navbar/Navbar';
 export default function Header() {
   const Buttons = styled(Button)(({ theme }) => ({
     backgroundColor:'#0509fd',
@@ -18,8 +19,10 @@ export default function Header() {
 
   return (
 
-
+<div className='header'>
+<ResponsiveAppBar />
     <div className='skills'>
+    
       <div className='skill-container'>
         <div className='skill-wrapper'>
         <h1 className='Heading1'>
@@ -42,9 +45,11 @@ export default function Header() {
   />
                 {/* <span className='Strong'> Sidra</span> */}
             </h1>
-          
+            <p className='Header-para'>SK Virtual assistant aims to provide Sales, Marketing and administrative support to busy professionals and entrepreneurs. With a passion to manage clients’ complex office tasks, implementing marketing/sales strategies and helping them to achieve daily business goals.
+            
+            </p>
         </div>
-     
+      
       </div>
       <Buttons sx={{
           padding: '15px 30px',
@@ -55,5 +60,5 @@ export default function Header() {
           fontWeight:'500'
       }} variant="contained" className='find-btn'>Find out more</Buttons>
     </div>
-  )
+    </div>  )
 }

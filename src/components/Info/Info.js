@@ -12,7 +12,7 @@ export default function Info() {
             <div className='Home-container'>
    
             <div className='dp-div'>
-                <img src={require('./image.png')} className='profiledp'></img>
+                <div className='profiledp' />
                 <div className='smicons'>
               <LinkedInIcon sx={{fontSize:'5rem'}}  className='social' ></LinkedInIcon>
              <FacebookIcon sx={{fontSize:'5rem'}}  className='social' ></FacebookIcon>
@@ -21,9 +21,9 @@ export default function Info() {
             </div>
             <div className='Home-wrapper'>
             <p className='intropara'>
-            I am a virtual assistant with expertise in sales and marketing, Amazon listing and Amazon Ads, project/task management, and administrative tasks. I have a strong background in developing and executing marketing strategies, conducting market research, and creating engaging content. 
-        I am skilled in optimizing Amazon listings, conducting keyword research, and managing Amazon Ads campaigns. I excel in project and task management, utilizing various tools to keep tasks on track and ensuring timely completion.  
-        
+            Hi, I am Sidra an industrial Engineer by qualification and Virtual Assistant Freelancer by 
+            profession. I value honesty and dedication in all aspects of my work.
+             I believe that open and transparent communication is key to building strong client relationships! As a self-motivated and detail-oriented can handle a wide range of tasks. As a self-starter, I always enjoy new tackling challenges and learning new skills.
             </p>
     
             <div className='down-div'>
