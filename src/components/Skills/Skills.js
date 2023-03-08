@@ -16,7 +16,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem',borderRadius:'3px',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' }} className='Service_card' data-aos="fade-right" >
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' }} className='Service_card' data-aos="fade-right" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='commerce-icon'></svg> 
@@ -42,7 +42,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' ,borderRadius:'3px', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-left">
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-left">
       <CardActionArea>
       <div className='area_icon'>
       <svg className='customer-icon'></svg> 
@@ -67,7 +67,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{maxWidth: '35.5rem', minWidth: '25.5rem' ,borderRadius:'3px', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', display:'flex', alignItems:'center', justifyContent:'center',flexWrap:'wrap', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-right" >
+          <Card sx={{maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', display:'flex', alignItems:'center', justifyContent:'center',flexWrap:'wrap', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-right" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='virtual-icon'></svg> 
@@ -91,7 +91,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' ,borderRadius:'3px', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , borderRadius: '20px 60px 0'}} className='Service_card' data-aos="fade-left" >
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , borderRadius: '20px 60px 0'}} className='Service_card' data-aos="fade-left" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='social-icon'></svg> 

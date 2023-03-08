@@ -7,7 +7,7 @@ import classes from './Review.module.css'
 
 import './style.css'
 // import required modules
-import {EffectFade, Pagination, Navigation, Autoplay , Mousewheel, Keyboard} from "swiper";
+import {Pagination, Navigation, Autoplay , Mousewheel, Keyboard} from "swiper";
 
 
 
@@ -67,7 +67,7 @@ const ReviewCard =(props) =>{
         <SwiperSlide  key={user.id} className="swiper-slide">
             <div className={classes['Slider']}>
                 <div className={classes['Main']}>
-        <img src={user.image} className={classes['User-img']}></img>
+        <img src={user.image} className={classes['User-img']} alt='reviwer'></img>
         <p className={classes['paragraph']}>{user.paragraph} </p> 
         <h5 className={classes['Name']}>{user.name}</h5>
         <a className={classes['info']} href={user.link}>{user.info}</a>

@@ -1,4 +1,4 @@
-import { Box, CircularProgress } from '@mui/material'
+import { Box} from '@mui/material'
 import React from 'react'
 import classes from './About.module.css'
 export default function Toolkit() {
@@ -22,7 +22,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >      
-              <div> <img src={require('./amazon (1).png')} />
+              <div> <img src={require('./amazon (1).png')} alt='amazon' />
               </div>
               </Box>
         
@@ -42,7 +42,7 @@ export default function Toolkit() {
       justifyContent: 'center',
     }}
   >
-     <img src={require('./helium.png')} />
+     <img src={require('./helium.png')} alt='helium' />
   </Box> 
 
 </Box>
@@ -60,7 +60,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-                   <img src={require('./asana (3).png')} />
+                   <img src={require('./asana (3).png')} alt='asana' />
               </Box> 
           
             </Box>
@@ -77,7 +77,7 @@ export default function Toolkit() {
                   alignItems: 'center',
                   justifyContent: 'center',
                 }}
-              >       <img src={require('./clockify.png')} />
+              >       <img src={require('./clockify.png')} alt='clockify' />
               </Box>
        
             </Box>
@@ -95,7 +95,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-              <img src={require('./excel.png')} />
+              <img src={require('./excel.png')} alt='excel'/>
               </Box> 
             </Box>
             <h6 className={classes['skill-name']}>Microsoft Excel</h6>
@@ -112,7 +112,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-              <img src={require('./team.png')} />
+              <img src={require('./team.png')} alt='ms teams'/>
               </Box> 
             </Box>
             <h6 className={classes['skill-name']}>Microsoft Team</h6>
@@ -129,7 +129,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-          <img src={require('./canva.png')} />
+          <img src={require('./canva.png')} alt='canva'/>
               </Box> 
                    
             </Box>
@@ -147,7 +147,7 @@ export default function Toolkit() {
       justifyContent: 'center',
     }}
   >
-    <img src={require('./methods.png')} />
+    <img src={require('./methods.png')} alt='method' />
 </Box> 
 
 </Box>
@@ -164,7 +164,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-          <img src={require('./wave.png')} />
+          <img src={require('./wave.png')} alt='wave' />
               </Box> 
           
             </Box>
@@ -184,7 +184,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-        <img src={require('./actres.png')} />
+        <img src={require('./actres.png')} alt='Active Campaign' />
               </Box> 
   
             </Box>
@@ -202,7 +202,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-                <img src={require('./Gsuite-logo.png')} />
+                <img src={require('./Gsuite-logo.png')} alt='google suite'/>
          </Box> 
   
             </Box>
@@ -218,7 +218,7 @@ export default function Toolkit() {
                   justifyContent: 'center',
                 }}
               >
-                <img src={require('./zoom.png')} />
+                <img src={require('./zoom.png')} alt='zoom' />
          </Box> 
   
             </Box>
