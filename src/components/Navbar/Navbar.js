@@ -7,11 +7,9 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+
 import './Navbar.css'
 
 const pages = [
@@ -37,29 +35,29 @@ const pages = [
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 // 
   return (
     <AppBar position="static" sx={{backgroundColor:'white', color:'white', backgroundRepeat:'fixed'}} >
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{display:'flex', justifyContent:'space-between', marginLeft:'1rem', marginRight:'1rem'}}>
            <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} > 
-          <img src={require('./logo.png')}  />
+          <img src={require('./logo.png')} alt='sk virtual Assistant' />
           </Box>
           {/* <Typography
             variant="h6"
@@ -79,7 +77,7 @@ function ResponsiveAppBar() {
             LOGO
           </Typography> */}
  <Box sx={{ display: { xs: 'flex', md: 'none' }, marginRight:'auto' }} > 
-          <img src={require('./logo.png')}  />
+          <img src={require('./logo.png')} alt='sk virtual Assistant'  />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', sm: 'none', color:'black' } }}>
             <IconButton

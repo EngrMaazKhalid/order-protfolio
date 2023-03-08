@@ -2,7 +2,6 @@
 import React from 'react'
 import './Home.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DownloadIcon from '@mui/icons-material/Download'
 import SendIcon from '@mui/icons-material/Send';
@@ -30,7 +29,7 @@ export default function Info() {
             <div className='down-div'>
                   
                   
-                <a className='button'><span className='button-text'> Download cv</span>
+                <a className='button' href='https://www.linkedin.com/in/sidra-irfan/'><span className='button-text'> Download cv</span>
                   <span className='button-icon'>
                     <DownloadIcon sx={{ fontSize: '3rem' }} />
                   </span>
