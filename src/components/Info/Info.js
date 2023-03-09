@@ -3,7 +3,7 @@ import React from 'react'
 import './Home.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import DownloadIcon from '@mui/icons-material/Download'
+
 import SendIcon from '@mui/icons-material/Send';
 
 export default function Info() {
