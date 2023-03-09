@@ -29,7 +29,7 @@ export default function Skills() {
           <ul>
             <li>Amazon account management</li>
             <li>Listing creation.</li>
-            <li>Amazon Flat/bulk filet</li>
+            <li>Amazon Flat/bulk files</li>
             <li>Amazon keyword research</li>
             <li>Amazon Ad campaigns</li>
            </ul>

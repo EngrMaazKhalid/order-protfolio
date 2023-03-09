@@ -29,16 +29,16 @@ export default function Info() {
             <div className='down-div'>
                   
                   
-                <a className='button' href='https://www.linkedin.com/in/sidra-irfan/'><span className='button-text'> Download cv</span>
+                <a className='button' href='mailto:sidrakld56@gmail.com'><span className='button-text'> Contact Me</span>
                   <span className='button-icon'>
-                    <DownloadIcon sx={{ fontSize: '3rem' }} />
+                  <SendIcon sx={{ fontSize: '3rem' }} />
                   </span>
                 </a>
-                <a className='button1' href='mailto:sidrakld56@gmail.com'><span className='button-text1'>Contact Me</span>
+                {/* <a className='button1' href='mailto:sidrakld56@gmail.com'><span className='button-text1'>Contact Me</span>
                   <span className='button-icon1'>
                     <SendIcon sx={{ fontSize: '3rem' }} />
                   </span>
-                </a>
+                </a> */}
             </div>
         </div>
         </div>

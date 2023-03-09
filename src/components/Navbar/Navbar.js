@@ -89,7 +89,7 @@ function ResponsiveAppBar() {
               color="black"
               sx={{marginLeft:'auto'}}
             >
-              <MenuIcon />
+              <MenuIcon sx={{fontSize:'3.5rem'}}/>
             </IconButton>
             <Menu
             
@@ -114,7 +114,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page.key}  onClick={handleCloseNavMenu}>
-                  <Typography   textAlign="center"><a className='NavName' href={page.id}>{page.name}</a></Typography>
+                  <Typography   textAlign="center" sx={{fontSize:"1.6rem"}}><a className='NavName' href={page.id}>{page.name}</a></Typography>
                 </MenuItem>
               ))}
             </Menu>
