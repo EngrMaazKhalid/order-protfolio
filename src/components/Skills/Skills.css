@@ -20,13 +20,14 @@ align-items: center;
 justify-content: center;
 }
 .skill-head{
-    color: wheat;
+    color: aliceblue;
     font-size: 4.5rem;
     text-transform: uppercase;
     text-align: center  ;
 }
 .commerce-icon{
-    background-image: url(./ecommerce.png);
+    /* background-image: url(./ecommerce.png); */
+    background-image: url(amazon-logo.png);
 background-repeat: no-repeat;
 display: flex;
 align-items: center;

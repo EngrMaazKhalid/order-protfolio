@@ -16,12 +16,30 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' }} className='Service_card' data-aos="fade-right" >
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , minHeight:'45rem' }} className='Service_card' data-aos="fade-right" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='commerce-icon'></svg> 
       </div>
       <CardContent>
+          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
+          Amazon marketing 
+          {/* (Private label) */}
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins'}}>
+          <ul>
+          <li> Amazon Listing Creation</li>
+          <li> Account Management</li>
+          <li>Amazon PPC Ad Campaign</li>
+          <li>  EBC Content </li>
+          <li>  Flat/Bulk File </li>
+           <li> Inventory Report </li>
+           <li> Competitor Analysis </li>
+           <li>Keyword hunting </li>
+            </ul>
+          </Typography>
+        </CardContent>
+      {/* <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
           Ecommerce Marketing
           </Typography>
@@ -34,7 +52,7 @@ export default function Skills() {
             <li>Amazon Ad campaigns</li>
            </ul>
           </Typography>
-        </CardContent>
+        </CardContent> */}
       
       </CardActionArea>
     </Card>
@@ -42,22 +60,21 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-left">
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , minHeight:'45rem' }} className='Service_card' data-aos="flip-left">
       <CardActionArea>
       <div className='area_icon'>
       <svg className='customer-icon'></svg> 
        </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
-           Sales/Customer Services
+          Sales and Marketing
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem', margin:'1rem', textAlign:'left' }}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins'}}>
           <ul>
-            <li>Sales Calls</li>
-            <li>Customer Service</li>
-            <li>Report Creation.</li>
-            <li>Email Management </li>
-            <li>Email Scheduling </li>
+         <li> Google Ad campaigns </li>
+         <li> LinkedIn sales navigator Campaigns </li>
+         <li> Sales Calls /CRM </li>
+         <li> Sale quote and invoice </li>
            </ul>
           </Typography>
         </CardContent>
@@ -67,7 +84,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', display:'flex', alignItems:'center', justifyContent:'center',flexWrap:'wrap', borderRadius: '20px 60px 0' }} className='Service_card' data-aos="flip-right" >
+          <Card sx={{maxWidth: '35.5rem', minWidth: '25.5rem',display:'flex', alignItem:'center', justifyContent:'center', borderRadius: '20px 60px 0', boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem', minHeight:'45rem' }} className='Service_card' data-aos="flip-right" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='virtual-icon'></svg> 
@@ -76,10 +93,10 @@ export default function Skills() {
           <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
           Virtual Assisstant
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem', textAlign:'left',margin:'1rem' }}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins' }}>
           <ul>
-            <li>Competitor Analysis</li>
-            <li>Amazon A+ content</li>
+            <li>Email Management </li>
+            <li>Email Scheduling</li>
             <li>Project Management</li>
             <li>Task Management </li>
            </ul>
@@ -91,7 +108,7 @@ export default function Skills() {
           <div className={classes['col-5']}>
 
 
-          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , borderRadius: '20px 60px 0'}} className='Service_card' data-aos="fade-left" >
+          <Card sx={{ maxWidth: '35.5rem', minWidth: '25.5rem' , boxShadow: '0 1.5rem 4rem rgb(0 0 0 / 15%)', padding:'1rem' , borderRadius: '20px 60px 0', minHeight:'45rem'}} className='Service_card' data-aos="fade-left" >
       <CardActionArea>
       <div className='area_icon'>
       <svg className='social-icon'></svg> 

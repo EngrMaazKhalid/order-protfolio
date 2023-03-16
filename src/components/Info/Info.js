@@ -23,7 +23,7 @@ export default function Info() {
             <p className='intropara' >
             Hi, I am Sidra an industrial Engineer by qualification and Virtual Assistant Freelancer by 
             profession. I value honesty and dedication in all aspects of my work.
-             I believe that open and transparent communication is key to building strong client relationships! As a self-motivated and detail-oriented can handle a wide range of tasks. As a self-starter, I always enjoy new tackling challenges and learning new skills.
+             I believe that open and transparent communication is key to building strong client relationships! As a self-motivated and detail-oriented can handle a wide range of tasks. As a self-starter, I always enjoy venturing new challenges and learning new skills.
             </p>
     
             <div className='down-div'>
