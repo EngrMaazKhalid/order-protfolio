@@ -22,11 +22,11 @@ export default function Skills() {
       <svg className='commerce-icon'></svg> 
       </div>
       <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' ,textTransform:'capitalize' }}>
           Amazon marketing 
           {/* (Private label) */}
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins'}}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins',textTransform:'capitalize'}}>
           <ul>
           <li> Amazon Listing Creation</li>
           <li> Account Management</li>
@@ -66,10 +66,10 @@ export default function Skills() {
       <svg className='customer-icon'></svg> 
        </div>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700',textTransform:'capitalize' }}>
           Sales and Marketing
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins'}}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins',textTransform:'capitalize'}}>
           <ul>
          <li> Google Ad campaigns </li>
          <li> LinkedIn sales navigator Campaigns </li>
@@ -90,10 +90,10 @@ export default function Skills() {
       <svg className='virtual-icon'></svg> 
    </div>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' ,textTransform:'capitalize'}}>
           Virtual Assisstant
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins' }}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins',textTransform:'capitalize' }}>
           <ul>
             <li>Email Management </li>
             <li>Email Scheduling</li>
@@ -114,10 +114,10 @@ export default function Skills() {
       <svg className='social-icon'></svg> 
        </div>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700',textTransform:'capitalize' }}>
             Social Media Marketing
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins'}}>
+          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins',textTransform:'capitalize'}}>
           <ul>
             <li>Social Media Marketing</li>
             <li>Instagram reels</li>
