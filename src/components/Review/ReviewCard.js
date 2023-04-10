@@ -21,6 +21,7 @@ const ReviewCard =(props) =>{
         link:'https://www.linkedin.com/company/colorantic/',
         paragraph:'"Your training is done, I think you do an excellent job and you will be a great partner with Neiyr. Lets work together and we can close deals"',
         image:require('./colorentic.jpg')},
+
         { id:'01',
         name: 'Sharmila Suresh ',
         info:'Program Director -AbacusMaster Canada',
@@ -28,10 +29,13 @@ const ReviewCard =(props) =>{
         paragraph:'"Sidra worked with AbacusMaster Canada for over 4 years as an Abacus mental math instructor. It was a pleasure working with her and we wish Sidra all the best for her future endeavors. "',
         image:require('./abacus.jpg')},
         
-        // { id:'02',
-        // name: 'Jos Buttler',
-        // paragraph:'"s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing"',
-        // image:require('./images.jpg')},
+        { id:'02',
+        name: 'Karen Sadler',
+        info:'Conscious Career Coach',
+        link:'https://www.linkedin.com/in/consciouscareercoach/',
+        paragraph:'"Thanks, Sidra! Look like you are getting it done pretty quickly! Wonderful:) I had some interest from a lead today so if I can land one that would be a huge win, thank you!!"',
+        image:require('./karen.jpg')
+    },
         // { id:'03',
         // name: 'Zak Crawley',
         // paragraph:'"s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing"',

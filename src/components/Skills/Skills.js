@@ -39,20 +39,7 @@ export default function Skills() {
             </ul>
           </Typography>
         </CardContent>
-      {/* <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'2.2rem', fontWeight:'700' }}>
-          Ecommerce Marketing
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center',flexWrap:'wrap',   fontSize:'1.6rem', marginLeft:'2rem', textAlign:'left' }}>
-          <ul>
-            <li>Amazon account management</li>
-            <li>Listing creation.</li>
-            <li>Amazon Flat/bulk files</li>
-            <li>Amazon keyword research</li>
-            <li>Amazon Ad campaigns</li>
-           </ul>
-          </Typography>
-        </CardContent> */}
+      
       
       </CardActionArea>
     </Card>
@@ -72,7 +59,7 @@ export default function Skills() {
           <Typography variant="body2" color="text.secondary" sx={{display:'flex', alignItem:'center', justifyContent:'center', fontSize:'1.6rem' , textAlign:'left',margin:'1rem', fontFamily:'Poppins',textTransform:'capitalize'}}>
           <ul>
          <li> Google Ad campaigns </li>
-         <li> LinkedIn sales navigator Campaigns </li>
+         <li>LinkedIn sales navigator Campaigns</li>
          <li> Sales Calls /CRM </li>
          <li> Sale quote and invoice </li>
            </ul>
